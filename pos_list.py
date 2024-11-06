@@ -12,17 +12,8 @@ Date: 2024-11-04
 
 import numpy as np
 import random
+import warnings
 
-
-## change your parameters here
-
-# positions in µm
-x_arr = np.linspace(-100,100,3)
-y_arr = np.linspace(-100,100,3)
-
-# location
-location = "/home/fy106182/Documents/ATER/recherche/xystage/Output.pos"
-#location = "C:/Users/adminlocal/Documents/QUMIN/test/Output.pos"
 
 
 
@@ -203,7 +194,7 @@ def create_pairs(x_arr,y_arr,mode="standard"):
             else :
                 for y in y_arr[::-1]:
                     pairs.append([x,y])
-                direction = -1
+                direction = 1
     else :
         for x in x_arr:
             for y in y_arr:
@@ -255,7 +246,7 @@ def create_new_position_string(pair, i=0, z=None):
 
 
 
-def create_full_string(positions,z=None, noise_width = 0, noise_type = None):
+def create_full_string(positions, z=None, z_stack = False, noise_width = 0, noise_type = None):
     """
     Creates a full formatted string by concatenating position-specific strings
     for each element in a list of positions.
@@ -263,20 +254,24 @@ def create_full_string(positions,z=None, noise_width = 0, noise_type = None):
 
     Parameters
     ----------
-    positions : list of tuples
+    positions : list of tuples (n, 2)
         A list of tuples where each tuple represents a position (x, y)
 
     z : float or np.ndarray (n,), optional
         An optional z value for the positions.
         If None is given, the position string will simply be z-independant.
         If an array is given, every position will be given a z-position.
-        If a float is given, the z-position of every string will be randomized
-        arond the given value to ensure movement (know bug for Micro-manager).
+        If an array is given, every position will be given a z-position.
+
+    z_stack : bool, optionnal
+        If z_stack is True, the z values will be considered as a stack, meaning
+        each (x,y) position will be associated to each z value.
+        In z_stack mode, no noiise will be applied.
 
     noise_width : float
         width of the noise added to z
 
-    noise_type : str, either "white" or "oscil"
+    noise_type : str, either None, "white" or "oscil"
         selects the type of noise to use. It can be None.
 
     Returns
@@ -289,46 +284,158 @@ def create_full_string(positions,z=None, noise_width = 0, noise_type = None):
     `str_main_1` is added at the beginning of the concatenation of the positions
     strings, and `str_main_2` is appended at the end.
     """
-    if z:
-        z_arr = np.zeros(len(positions)) + z
+    if not z_stack:
+        if z:
+            z = np.array(z)
+            try :
+                z_arr = np.zeros(len(positions)) + z
+            except :
+                raise Exception("z is of the wrong dimension. Did you try to create a z_stack? Try adding z_stack=True")
 
-        if noise_type == "white":
-            z_arr += (np.random.random(len(positions))-0.5)*noise_width
-            z_arr += np.array([i%2 for i in range(len(positions))])*0.0001 # adding that avoids getting twice the same z value
 
-        elif noise_type == "oscil":
-            z_arr += (np.array([i%2 for i in range(len(positions))])-0.5)*noise_width
-        z_arr = z_arr.round(4)
+            if noise_type == "white":
+                z_arr += (np.random.random(len(positions))-0.5)*noise_width
 
-    full_str = str_main_1
-    for i in range(len(positions)):
-        if not (z is None):
-            full_str += create_new_position_string(positions[i], i, z_arr[i])
-        else :
-            full_str += create_new_position_string(positions[i], i)
-        if i < len(positions) - 1:
-            full_str += ",\n"
-    full_str += str_main_2
+                # adding that avoids getting twice the same z value
+                for k in range(len(z_arr)-1):
+                    if abs(z_arr[k]-z_arr[k+1])<0.0002:
+                        if z_arr[k]<z_arr[k+1]:
+                            z_arr[k+1]+=0.0002
+                        else:
+                            z_arr[k+1]-=0.0002
+
+
+            elif noise_type == "oscil":
+                z_arr += (np.array([i%2 for i in range(len(positions))]))*noise_width
+
+            # rounding for text file format
+            z_arr = z_arr.round(4)
+
+        full_str = str_main_1
+        for i in range(len(positions)):
+            if not (z is None):
+                full_str += create_new_position_string(positions[i], i, z_arr[i])
+            else :
+                full_str += create_new_position_string(positions[i], i)
+            if i < len(positions) - 1:
+                full_str += ",\n"
+        full_str += str_main_2
+
+    else :#z_stack
+        if (z is None):
+            raise Exception("to create a z_stack, a z array has to be given")
+        if  ( noise_width != 0) or ( not (noise_type is None) ):
+            warnings.warn("Warning : using noise with z_stack mode is prohibited. Noise will not be added.")
+
+        full_str = str_main_1
+        for i in range(len(positions)):
+            for j in range(len(z)):
+                full_str += create_new_position_string(positions[i], i*len(z)+j, z[j])
+                if i < len(positions) - 1 or j < len(z) -1:
+                    full_str += ",\n"
+        full_str += str_main_2
+
     return full_str
 
 
 
 
+def generate_pos_file(x_arr, y_arr, z, location,
+                z_stack=False,
+                noise_width = 0,
+                noise_type = None,
+                mode="standard",
+                compatibility_MDA = True):
+    """
+    main function that calls all the others.
+
+    x_arr : np.ndarray (n,)
+        1-dimensional numpy array containing values for x.
+
+    y_arr : np.ndarray (m,)
+        1-dimensional numpy array containing values for y.
+
+    z : float or np.ndarray (n,)
+        A z value for the positions.
+        If a float is given, the z-position of every step will be the same.
+        If an array is given, every position will be given a z-position.
+
+    z_stack : bool, optionnal
+        If z_stack is True, the z values will be considered as a stack, meaning
+        each (x,y) position will be associated to each z value.
+        In z_stack mode, no noiise will be applied.
+
+    noise_width : float
+        width of the noise added to z
+
+    noise_type : str, either None, "white" or "oscil"
+        selects the type of noise to use. It can be None.
+
+    mode : string
+        string indicating the method used to sort the positions. Options are
+            "standard" : x1,y1 // x1,y2 // x2,y1 // x2,y2
+            "reversed" : x1,y1 // x2,y1 // x1,y2 // x2,y2
+            "snake"    : x1,y1 // x1,y2 // x2,y2 // x2,y1
+            "random"
+
+    compatibility_MDA : bool
+        If True, forces the output file to contain enough noise to trigger the
+        displacement of the xy stage at each step, by slightly moving the z stage.
+        This circumvents a bug present in Micro Manager.
+
+    """
+    positions = create_pairs(x_arr,y_arr, mode = mode)
+
+    if compatibility_MDA:
+        if noise_type is None:
+            noise_type = "oscil"
+        if noise_width < 0.0002:
+            noise_width=0.0002
+
+    full_string = create_full_string(positions, z = z, z_stack=z_stack, noise_width = noise_width, noise_type = noise_type)
+
+
+    with open(location, "w") as text_file:
+        text_file.write(full_string)
+
+    return(None)
+
+
+
+
+
+## change your parameters here
+
+# positions in µm
+x_arr = np.linspace(-10,10,5)
+y_arr = np.linspace(-10,10,5)
+
+# parameters
+z = 40
+z_stack = False
+noise_width = 0
+noise_type = None
+mode="snake"
+compatibility_MDA = True
+
+
+# location
+#location = "/home/fy106182/Documents/ATER/recherche/xystage/Output.pos"
+location = "C:/Users/adminlocal/Documents/QUMIN/xystage/Output.pos"
 
 
 ## Execution
 
 
-# minimal example that generated the same file as by Micro-manager
-#positions = np.array([[0.0,0.0],[-500.0,0.0],[-1000.0,0.0]])
+
+generate_pos_file(x_arr, y_arr, z, location,
+                z_stack=z_stack,
+                noise_width = noise_width,
+                noise_type = noise_type,
+                mode=mode,
+                compatibility_MDA = compatibility_MDA)
 
 
-positions = create_pairs(x_arr,y_arr)
-
-full_string = create_full_string(positions)#,z = 40, noise_width = 1, noise_type = "oscil")
-
-with open(location, "w") as text_file:
-    text_file.write(full_string)
 
 
 
