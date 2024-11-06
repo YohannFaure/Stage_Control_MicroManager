@@ -6,6 +6,35 @@ This program creates a correctly formated `.pos` file to use with Micro-Manager.
 The list of (x,y) positions is created from two arrays, user defined bellow.
 The output file is saved in a user-defined location.
 
+Run this file with
+    python3 pos_list.py ./setting_file.txt ./Output.txt --options
+
+options :
+---------
+    z_stack : bool, optionnal, default False
+        If z_stack is True, the z values will be considered as a stack, meaning
+        each (x,y) position will be associated to each z value.
+        In z_stack mode, no noiise will be applied.
+
+    noise_width : float, default 0.
+        width of the noise added to z
+
+    noise_type : str, either None, "white" or "oscil", default None
+        selects the type of noise to use. It can be None.
+
+    mode : string, default "snake"
+        string indicating the method used to sort the positions. Options are
+            "standard" : x1,y1 // x1,y2 // x2,y1 // x2,y2
+            "reversed" : x1,y1 // x2,y1 // x1,y2 // x2,y2
+            "snake"    : x1,y1 // x1,y2 // x2,y2 // x2,y1
+            "random"
+
+    compatibility_MDA : bool, default True
+        If True, forces the output file to contain enough noise to trigger the
+        displacement of the xy stage at each step, by slightly moving the z stage.
+        This circumvents a bug present in Micro Manager.
+
+
 Author: Yohann Faure
 Date: 2024-11-04
 """
@@ -13,8 +42,8 @@ Date: 2024-11-04
 import numpy as np
 import random
 import warnings
-
-
+import sys
+import argparse
 
 
 
@@ -404,37 +433,105 @@ def generate_pos_file(x_arr, y_arr, z, location,
 
 
 
-## change your parameters here
-
-# positions in µm
-x_arr = np.linspace(-10,10,5)
-y_arr = np.linspace(-10,10,5)
-
-# parameters
-z = 40
-z_stack = False
-noise_width = 0
-noise_type = None
-mode="snake"
-compatibility_MDA = True
-
-
-# location
-#location = "/home/fy106182/Documents/ATER/recherche/xystage/Output.pos"
-location = "C:/Users/adminlocal/Documents/QUMIN/xystage/Output.pos"
-
 
 ## Execution
 
 
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='This script create a position list to use with the MDA of MicroManager.')
 
-generate_pos_file(x_arr, y_arr, z, location,
+    parser.add_argument("setting_file", type=str, help="")
+    parser.add_argument("output_location", type=str, help="")
+
+
+    parser.add_argument(
+        "--z_stack",
+        action="store_true",
+        default=False,
+        help="Enable z_stack mode (default: False)."
+    )
+    parser.add_argument(
+        "--noise_width",
+        type=int,
+        default=0,
+        help="Width of the noise to be applied (default: 0)."
+    )
+    parser.add_argument(
+        "--noise_type",
+        type=str,
+        choices=["white", "oscil"],
+        default=None,
+        help="Type of noise to apply (default: None). Choose from 'white' or 'oscil'."
+    )
+    parser.add_argument(
+        "--mode",
+        type=str,
+        choices=["snake", "standard", "random", "reversed"],
+        default="snake",
+        help="Scanning mode to use (default: 'snake'). Options: 'snake', 'standard', 'reversed' or 'random'."
+    )
+    parser.add_argument(
+        "--compatibility_MDA",
+        action="store_true",
+        default=True,
+        help="Enable compatibility with MDA (default: True)."
+    )
+
+    args = parser.parse_args()
+
+    setting_file = args.setting_file
+    output_location = args.output_location
+
+    with open(setting_file, "r") as file:
+        code = file.read()
+    exec(code)
+
+
+    z_stack           = args.z_stack
+    noise_width       = args.noise_width
+    noise_type        = args.noise_type
+    mode              = args.mode
+    compatibility_MDA = args.compatibility_MDA
+
+
+    generate_pos_file(x_arr, y_arr, z, output_location,
                 z_stack=z_stack,
                 noise_width = noise_width,
                 noise_type = noise_type,
                 mode=mode,
                 compatibility_MDA = compatibility_MDA)
 
+
+else :
+    # change your parameters here
+
+    # positions in µm
+    x_arr = np.linspace(-10,10,5)
+    y_arr = np.linspace(-10,10,5)
+
+    # parameters
+    z = 40
+    z_stack = False
+    noise_width = 0
+    noise_type = None
+    mode="snake"
+    compatibility_MDA = True
+
+
+    # location
+    #location = "/home/fy106182/Documents/ATER/recherche/xystage/Output.pos"
+    location = "C:/Users/adminlocal/Documents/QUMIN/xystage/Output.pos"
+
+
+
+
+
+    generate_pos_file(x_arr, y_arr, z, location,
+                z_stack=z_stack,
+                noise_width = noise_width,
+                noise_type = noise_type,
+                mode=mode,
+                compatibility_MDA = compatibility_MDA)
 
 
 

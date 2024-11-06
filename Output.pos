@@ -96,7 +96,7 @@
                   "type": "DOUBLE",
                   "array": [
                     -10.0,
-                    -5.0
+                    -8.0
                   ]
                 }
               }
@@ -152,7 +152,7 @@
                   "type": "DOUBLE",
                   "array": [
                     -10.0,
-                    0.0
+                    -6.0
                   ]
                 }
               }
@@ -208,7 +208,7 @@
                   "type": "DOUBLE",
                   "array": [
                     -10.0,
-                    5.0
+                    -4.0
                   ]
                 }
               }
@@ -264,7 +264,7 @@
                   "type": "DOUBLE",
                   "array": [
                     -10.0,
-                    10.0
+                    -2.0
                   ]
                 }
               }
@@ -319,8 +319,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    -5.0,
-                    10.0
+                    -10.0,
+                    0.0
                   ]
                 }
               }
@@ -375,8 +375,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    -5.0,
-                    5.0
+                    -10.0,
+                    2.0
                   ]
                 }
               }
@@ -431,8 +431,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    -5.0,
-                    0.0
+                    -10.0,
+                    4.0
                   ]
                 }
               }
@@ -487,8 +487,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    -5.0,
-                    -5.0
+                    -10.0,
+                    6.0
                   ]
                 }
               }
@@ -543,8 +543,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    -5.0,
-                    -10.0
+                    -10.0,
+                    8.0
                   ]
                 }
               }
@@ -599,8 +599,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    0.0,
-                    -10.0
+                    -10.0,
+                    10.0
                   ]
                 }
               }
@@ -655,8 +655,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    0.0,
-                    -5.0
+                    -8.0,
+                    10.0
                   ]
                 }
               }
@@ -711,8 +711,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    0.0,
-                    0.0
+                    -8.0,
+                    8.0
                   ]
                 }
               }
@@ -767,8 +767,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    0.0,
-                    5.0
+                    -8.0,
+                    6.0
                   ]
                 }
               }
@@ -823,8 +823,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    0.0,
-                    10.0
+                    -8.0,
+                    4.0
                   ]
                 }
               }
@@ -879,8 +879,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    5.0,
-                    10.0
+                    -8.0,
+                    2.0
                   ]
                 }
               }
@@ -935,8 +935,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    5.0,
-                    5.0
+                    -8.0,
+                    0.0
                   ]
                 }
               }
@@ -991,8 +991,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    5.0,
-                    0.0
+                    -8.0,
+                    -2.0
                   ]
                 }
               }
@@ -1047,8 +1047,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    5.0,
-                    -5.0
+                    -8.0,
+                    -4.0
                   ]
                 }
               }
@@ -1103,8 +1103,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    5.0,
-                    -10.0
+                    -8.0,
+                    -6.0
                   ]
                 }
               }
@@ -1159,8 +1159,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    10.0,
-                    -10.0
+                    -8.0,
+                    -8.0
                   ]
                 }
               }
@@ -1215,8 +1215,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    10.0,
-                    -5.0
+                    -8.0,
+                    -10.0
                   ]
                 }
               }
@@ -1271,8 +1271,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    10.0,
-                    0.0
+                    -6.0,
+                    -10.0
                   ]
                 }
               }
@@ -1327,8 +1327,8 @@
                 "Position_um": {
                   "type": "DOUBLE",
                   "array": [
-                    10.0,
-                    5.0
+                    -6.0,
+                    -8.0
                   ]
                 }
               }
@@ -1345,6 +1345,5382 @@
           "Label": {
             "type": "STRING",
             "scalar": "Pos23"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -6.0,
+                    -6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos24"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -6.0,
+                    -4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos25"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -6.0,
+                    -2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos26"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -6.0,
+                    0.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos27"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -6.0,
+                    2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos28"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -6.0,
+                    4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos29"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -6.0,
+                    6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos30"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -6.0,
+                    8.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos31"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -6.0,
+                    10.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos32"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -4.0,
+                    10.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos33"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -4.0,
+                    8.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos34"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -4.0,
+                    6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos35"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -4.0,
+                    4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos36"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -4.0,
+                    2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos37"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -4.0,
+                    0.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos38"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -4.0,
+                    -2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos39"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -4.0,
+                    -4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos40"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -4.0,
+                    -6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos41"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -4.0,
+                    -8.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos42"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -4.0,
+                    -10.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos43"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -2.0,
+                    -10.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos44"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -2.0,
+                    -8.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos45"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -2.0,
+                    -6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos46"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -2.0,
+                    -4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos47"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -2.0,
+                    -2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos48"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -2.0,
+                    0.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos49"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -2.0,
+                    2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos50"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -2.0,
+                    4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos51"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -2.0,
+                    6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos52"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -2.0,
+                    8.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos53"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    -2.0,
+                    10.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos54"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    0.0,
+                    10.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos55"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    0.0,
+                    8.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos56"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    0.0,
+                    6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos57"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    0.0,
+                    4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos58"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    0.0,
+                    2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos59"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos60"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    0.0,
+                    -2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos61"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    0.0,
+                    -4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos62"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    0.0,
+                    -6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos63"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    0.0,
+                    -8.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos64"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    0.0,
+                    -10.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos65"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    2.0,
+                    -10.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos66"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    2.0,
+                    -8.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos67"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    2.0,
+                    -6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos68"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    2.0,
+                    -4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos69"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    2.0,
+                    -2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos70"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    2.0,
+                    0.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos71"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    2.0,
+                    2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos72"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    2.0,
+                    4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos73"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    2.0,
+                    6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos74"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    2.0,
+                    8.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos75"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    2.0,
+                    10.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos76"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    4.0,
+                    10.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos77"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    4.0,
+                    8.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos78"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    4.0,
+                    6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos79"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    4.0,
+                    4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos80"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    4.0,
+                    2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos81"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    4.0,
+                    0.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos82"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    4.0,
+                    -2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos83"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    4.0,
+                    -4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos84"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    4.0,
+                    -6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos85"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    4.0,
+                    -8.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos86"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    4.0,
+                    -10.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos87"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    6.0,
+                    -10.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos88"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    6.0,
+                    -8.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos89"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    6.0,
+                    -6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos90"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    6.0,
+                    -4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos91"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    6.0,
+                    -2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos92"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    6.0,
+                    0.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos93"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    6.0,
+                    2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos94"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    6.0,
+                    4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos95"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    6.0,
+                    6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos96"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    6.0,
+                    8.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos97"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    6.0,
+                    10.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos98"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    8.0,
+                    10.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos99"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    8.0,
+                    8.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos100"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    8.0,
+                    6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos101"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    8.0,
+                    4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos102"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    8.0,
+                    2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos103"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    8.0,
+                    0.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos104"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    8.0,
+                    -2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos105"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    8.0,
+                    -4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos106"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    8.0,
+                    -6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos107"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    8.0,
+                    -8.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos108"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    8.0,
+                    -10.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos109"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    10.0,
+                    -10.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos110"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    10.0,
+                    -8.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos111"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    10.0,
+                    -6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos112"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    10.0,
+                    -4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos113"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    10.0,
+                    -2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos114"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    10.0,
+                    0.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos115"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    10.0,
+                    2.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos116"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    10.0,
+                    4.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos117"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    10.0,
+                    6.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos118"
+          },
+          "Properties": {
+            "type": "PROPERTY_MAP",
+            "scalar": {}
+          }
+        },
+        {
+          "DefaultXYStage": {
+            "type": "STRING",
+            "scalar": "XY Stage"
+          },
+          "DefaultZStage": {
+            "type": "STRING",
+            "scalar": "PIZStage"
+          },
+          "DevicePositions": {
+            "type": "PROPERTY_MAP",
+            "array": [
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "PIZStage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    40.0002
+                  ]
+                }
+              },
+              {
+                "Device": {
+                  "type": "STRING",
+                  "scalar": "XY Stage"
+                },
+                "Position_um": {
+                  "type": "DOUBLE",
+                  "array": [
+                    10.0,
+                    8.0
+                  ]
+                }
+              }
+            ]
+          },
+          "GridCol": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "GridRow": {
+            "type": "INTEGER",
+            "scalar": 0
+          },
+          "Label": {
+            "type": "STRING",
+            "scalar": "Pos119"
           },
           "Properties": {
             "type": "PROPERTY_MAP",
@@ -1400,7 +6776,7 @@
           },
           "Label": {
             "type": "STRING",
-            "scalar": "Pos24"
+            "scalar": "Pos120"
           },
           "Properties": {
             "type": "PROPERTY_MAP",
