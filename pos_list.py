@@ -230,7 +230,7 @@ def create_pairs(x_arr,y_arr,mode="standard"):
                 pairs.append([x,y])
 
     if mode == "random":
-        pairs = random.shuffle(pairs)
+        random.shuffle(pairs)
 
     pairs = np.array(pairs)
 
@@ -438,6 +438,9 @@ def generate_pos_file(x_arr, y_arr, z, location,
 
 
 if __name__ == "__main__":
+
+    UNSPECIFIED = object()
+
     parser = argparse.ArgumentParser(description='This script create a position list to use with the MDA of MicroManager.')
 
     parser.add_argument("setting_file", type=str, help="")
@@ -447,33 +450,33 @@ if __name__ == "__main__":
     parser.add_argument(
         "--z_stack",
         action="store_true",
-        default=False,
+        default=UNSPECIFIED,
         help="Enable z_stack mode (default: False)."
     )
     parser.add_argument(
         "--noise_width",
         type=int,
-        default=0,
+        default=UNSPECIFIED,
         help="Width of the noise to be applied (default: 0)."
     )
     parser.add_argument(
         "--noise_type",
         type=str,
         choices=["white", "oscil"],
-        default=None,
+        default=UNSPECIFIED,
         help="Type of noise to apply (default: None). Choose from 'white' or 'oscil'."
     )
     parser.add_argument(
         "--mode",
         type=str,
         choices=["snake", "standard", "random", "reversed"],
-        default="snake",
+        default=UNSPECIFIED,
         help="Scanning mode to use (default: 'snake'). Options: 'snake', 'standard', 'reversed' or 'random'."
     )
     parser.add_argument(
         "--compatibility_MDA",
         action="store_true",
-        default=True,
+        default=UNSPECIFIED,
         help="Enable compatibility with MDA (default: True)."
     )
 
@@ -482,16 +485,25 @@ if __name__ == "__main__":
     setting_file = args.setting_file
     output_location = args.output_location
 
+
+    # Default values for the arguments
+    DEFAULT_Z_STACK           = False
+    DEFAULT_NOISE_WIDTH       = 0
+    DEFAULT_NOISE_TYPE        = None
+    DEFAULT_MODE              = "snake"
+    DEFAULT_COMPATIBILITY_MDA = True
+
     with open(setting_file, "r") as file:
         code = file.read()
     exec(code)
 
+    # Check and assign values only if they were explicitly provided by the user
+    z_stack            = args.z_stack if args.z_stack is not UNSPECIFIED else                       DEFAULT_Z_STACK
+    noise_width        = args.noise_width if args.noise_width is not UNSPECIFIED else               DEFAULT_NOISE_WIDTH
+    noise_type         = args.noise_type if args.noise_type is not UNSPECIFIED else                 DEFAULT_NOISE_TYPE
+    mode               = args.mode if args.mode is not UNSPECIFIED else                             DEFAULT_MODE
+    compatibility_MDA  = args.compatibility_MDA if args.compatibility_MDA is not UNSPECIFIED else   DEFAULT_COMPATIBILITY_MDA
 
-    z_stack           = args.z_stack
-    noise_width       = args.noise_width
-    noise_type        = args.noise_type
-    mode              = args.mode
-    compatibility_MDA = args.compatibility_MDA
 
 
     generate_pos_file(x_arr, y_arr, z, output_location,

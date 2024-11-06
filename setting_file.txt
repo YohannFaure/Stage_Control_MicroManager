@@ -3,9 +3,9 @@
 # positions in µm
 x_arr = np.linspace(-10,10,11)
 y_arr = np.linspace(-10,10,11)
+z = 40
 
 # parameters (overwriten by execution arguments if any)
-z = 40
 z_stack = False
 noise_width = 0
 noise_type = None
