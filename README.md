@@ -61,6 +61,24 @@ y_arr = np.linspace(-10, 10, 5) # np.ndarray(m,)
 z = 40  # Fixed z value or np.ndarray(n*m,)
 ```
 
+This file can also contain the optional arguments you want to use, but careful, these arguments will be overwritten if any is specified in command line.
+```python
+## setting_file for pos_list.py
+# positions in µm
+x_arr = np.linspace(-10,10,11)
+y_arr = np.linspace(-10,10,11)
+z     = np.linspace(-10,10,11)
+
+# arguments (overwriten by execution arguments if any)
+z_stack = True
+noise_width = 0
+noise_type = None
+mode="snake"
+compatibility_MDA = True
+```
+
+
+
 ## Function Overview
 
 - `create_pairs(x_arr, y_arr, mode)`: Generates (x, y) position pairs in the specified order.
