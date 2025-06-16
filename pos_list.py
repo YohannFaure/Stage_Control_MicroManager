@@ -485,17 +485,26 @@ if __name__ == "__main__":
     setting_file = args.setting_file
     output_location = args.output_location
 
-
-    # Default values for the arguments
-    DEFAULT_Z_STACK           = False
-    DEFAULT_NOISE_WIDTH       = 0
-    DEFAULT_NOISE_TYPE        = None
-    DEFAULT_MODE              = "snake"
-    DEFAULT_COMPATIBILITY_MDA = True
+    # parameters (overwriten by execution arguments if any)
+    z_stack = True
+    noise_width = 0
+    noise_type = None
+    mode="snake"
+    compatibility_MDA = True
 
     with open(setting_file, "r") as file:
         code = file.read()
     exec(code)
+
+
+    # Default values for the arguments, from the params file
+    DEFAULT_Z_STACK           = z_stack
+    DEFAULT_NOISE_WIDTH       = noise_width
+    DEFAULT_NOISE_TYPE        = noise_type
+    DEFAULT_MODE              = mode
+    DEFAULT_COMPATIBILITY_MDA = compatibility_MDA
+
+
 
     # Check and assign values only if they were explicitly provided by the user
     z_stack            = args.z_stack if args.z_stack is not UNSPECIFIED else                       DEFAULT_Z_STACK

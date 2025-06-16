@@ -3,10 +3,10 @@
 # positions in µm
 x_arr = np.linspace(-10,10,11)
 y_arr = np.linspace(-10,10,11)
-z = 40
+z     = np.linspace(-10,10,11)
 
 # parameters (overwriten by execution arguments if any)
-z_stack = False
+z_stack = True
 noise_width = 0
 noise_type = None
 mode="snake"
